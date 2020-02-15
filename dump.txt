@@ -1,0 +1,110 @@
+== Info:   Trying 87.237.235.35...
+== Info: TCP_NODELAY set
+== Info: Connected to inha.uz (87.237.235.35) port 443 (#0)
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 1/3)
+== Info: schannel: checking server certificate revocation
+== Info: schannel: sending initial handshake data: sending 172 bytes...
+== Info: schannel: sent initial handshake data: sent 172 bytes
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: failed to receive handshake, need more data
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: encrypted data got 2920
+== Info: schannel: encrypted data buffer: offset 2920 length 4096
+== Info: schannel: encrypted data length: 2850
+== Info: schannel: encrypted data buffer: offset 2850 length 4096
+== Info: schannel: received incomplete message, need more data
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: encrypted data got 1246
+== Info: schannel: encrypted data buffer: offset 4096 length 4096
+== Info: schannel: received incomplete message, need more data
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: encrypted data got 1024
+== Info: schannel: encrypted data buffer: offset 5120 length 5120
+== Info: schannel: encrypted data length: 166
+== Info: schannel: encrypted data buffer: offset 166 length 5120
+== Info: schannel: received incomplete message, need more data
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: encrypted data got 181
+== Info: schannel: encrypted data buffer: offset 347 length 5120
+== Info: schannel: sending next handshake data: sending 126 bytes...
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 2/3)
+== Info: schannel: encrypted data got 258
+== Info: schannel: encrypted data buffer: offset 258 length 5120
+== Info: schannel: SSL/TLS handshake complete
+== Info: schannel: SSL/TLS connection with inha.uz port 443 (step 3/3)
+== Info: schannel: stored credential handle in session cache
+=> Send header, 96 bytes (0x60)
+0000: GET /static/inha/img/logo2.png HTTP/1.1
+0029: Host: inha.uz
+0038: User-Agent: curl/7.55.1
+0051: Accept: */*
+005e: 
+== Info: schannel: client wants to read 102400 bytes
+== Info: schannel: encdata_buffer resized 103424
+== Info: schannel: encrypted data buffer: offset 0 length 103424
+== Info: schannel: encrypted data got 2408
+== Info: schannel: encrypted data buffer: offset 2408 length 103424
+== Info: schannel: decrypted data length: 2379
+== Info: schannel: decrypted data added: 2379
+== Info: schannel: decrypted data cached: offset 2379 length 102400
+== Info: schannel: encrypted data buffer: offset 0 length 103424
+== Info: schannel: decrypted data buffer: offset 2379 length 102400
+== Info: schannel: schannel_recv cleanup
+== Info: schannel: decrypted data returned 2379
+== Info: schannel: decrypted data buffer: offset 0 length 102400
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 15 Feb 2020 11:46:58 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 2147
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Thu, 13 Feb 2020 12:12:35 GMT
+<= Recv header, 22 bytes (0x16)
+0000: ETag: "5e453d33-863"
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 2147 bytes (0x863)
+0000: <!doctype html><html lang="en"><head><meta charset="utf-8"/><lin
+0040: k rel="shortcut icon" href="/favicon.ico"/><link rel="stylesheet
+0080: " href="swiper.css"><link rel="stylesheet" href="video-react.css
+00c0: "/><meta name="viewport" content="width=device-width,initial-sca
+0100: le=1"/><meta name="theme-color" content="#000000"/><link rel="ma
+0140: nifest" href="/manifest.json"/><title>INHA UNIVERSITY IN TASHKEN
+0180: T</title><link href="/static/css/2.847edf76.chunk.css" rel="styl
+01c0: esheet"><link href="/static/css/main.c7295592.chunk.css" rel="st
+0200: ylesheet"></head><body><div id="root"></div><script>!function(l)
+0240: {function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.len
+0280: gth;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.pr
+02c0: ototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.leng
+0300: th;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){fo
+0340: r(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o
+0380: ++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]
+03c0: ))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t
+0400: [e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.
+0440: exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function
+0480: (e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t
+04c0: })},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringT
+0500: ag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})
+0540: ,Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(
+0580: r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r
+05c0: &&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Obje
+0600: ct.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"str
+0640: ing"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.b
+0680: ind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?fun
+06c0: ction(){return e.default}:function(){return e};return f.d(r,"a",
+0700: r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.c
+0740: all(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp|
+0780: |[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length
+07c0: ;o++)e(r[o]);var s=n;a()}([])</script><script src="/static/js/2.
+0800: 2f37ea02.chunk.js"></script><script src="/static/js/main.f49c096
+0840: 9.chunk.js"></script></body></html>
+== Info: Connection #0 to host inha.uz left intact
